@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Inder", sans-serif;
+    line-height: 1.5;
+    background-color: #ABE1F7;
+    overflow: hidden;
+}
+
+
+/* Header ALL PAGES */
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: #70B0DF;
+    box-shadow: 0px 4px 2.8px 1px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    width: 306px;
+    height: 130px;
+}
+
+main {
+    width: 100%;
+    height: 1200px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+/* falta justificar o texto */
+.container-p {
+    padding: 40px;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 25px;
+    color: black;
+    background-color: #D1D2D4;
+    border: 4px solid black;
+    margin-bottom: 20px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nuvem {
+    width: 248px;
+    height: 248px;
+}
+
+.number {
+    display: flex;
+    
+    width: 84px;
+    height: 92px;
+}
+
+.container-nuvem-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-nuvem-1:hover{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container-nuvem-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-nuvem-2:hover{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container-nuvem-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-nuvem-3:hover{
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 203px;
+}
+
+/* Footer ALL PAGES */
+.container-footer {
+    background-image: url(../../Imgs/footer.svg);
+    background-repeat: repeat;
+    background-position: top top;
+    height: 300px;
+}
+

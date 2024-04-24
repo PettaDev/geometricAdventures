@@ -2,26 +2,26 @@
 
 // Área do Quadrado
 
-    function areaDoQuadrado (ladoquadrado){
-        return ladoquadrado * ladoquadrado;
-    }
+function calcquadrado() {
+    let lado = parseFloat(prompt("Digite o valor de um dos lados do quadrado."));
+    let calculo1 = lado * lado;
 
-    let areaQuadrado = calcularAreaQuadrado(lado);
-    console.log("A área do quadrado com lado", lado, "é", area);
+    document.getElementById("resultpag").innerHTML = "A área do Quadrado é: " + calculo1;
+}
 
 // Área do Cubo
+function calccubo() {
+    let lado = parseFloat(prompt("Digite o valor de um dos lados do cubo: "));
+    let calculo2 = 6 * (lado * lado);
+  
+    document.getElementById("resultpag2").innerHTML = "A area do Cubo é: " + calculo2;
+}
 
-    function areaDoCubo (ladocubo) {
-        return 6 * (ladocubo * ladocubo)
-    }
-    let areaCubo = areaDoCubo(ladocubo);
-    console.log("A área do cubo com aresta", ladocubo, "é", area);
-
-// Área do Retangulo
-
-    function areaDoRetangulo (largura, comprimento) {
-        return largura * comprimento;
-    }
-
-    let areaRetangulo = areaDoRetangulo(comprimento, largura);
-    console.log("A área do retângulo com comprimento", comprimento, "e largura", largura, "é", area);
+// Área do retangulo
+function calcretangulo() {
+    let base = parseFloat(prompt("Digite o valor da base: "));
+    let altura = parseFloat(prompt("Digite o valor da altura: "));
+    let calculo2 = base * altura;
+  
+    document.getElementById("resultpag3").innerHTML = "A area do Retangulo é: " + calculo2;
+}

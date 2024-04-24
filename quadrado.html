@@ -13,18 +13,19 @@
     <header class="cabecalho">
         <a href="index.html"><img class="logo" src="Imgs/aventura-geometrica.png" alt="logo-aventura-geometrica"></a>
     </header>
-    <main>
+    <main class="quadradinho">
 
         <div class="area-quadrado">
             <img class="img-quadrado" alt="cabeça do creeper quadrado" src="Imgs/quadrado.svg">
         </div>
 
         <div class="texto-quadrado">
-            <p class="p-quadrado">Ao construir um quadrado, os jogadores estão, na verdade, explorando o conceito de área. Eles podem aprender que a área de um quadrado é calculada multiplicando o comprimento da base pela altura.</p>
+            <p class="container-p">Ao construir um quadrado, os jogadores estão, na verdade, explorando o conceito de área. Eles podem aprender que a área de um quadrado é calculada multiplicando o lado vezes lado.</p>
         </div>
 
         <div class="button-quadrado">
-            <button class="btn-quadrado" onclick="">CLIQUE AQUI PARA CALCULAR A ÁREA!</button>
+            <button  onclick="calcquadrado()" class="btn-quadrado">CLIQUE AQUI PARA CALCULAR A ÁREA!</button>
+            <p id="resultpag"></p>
         </div>
 
     </main>
@@ -34,5 +35,7 @@
             <!-- <img class="container-footer-img" src="Imgs/footer.svg"> -> utilizei backgroud repeat no css -->
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

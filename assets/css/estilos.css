@@ -12,7 +12,6 @@ body {
     font-family: "Inder", sans-serif;
     line-height: 1.5;
     background-color: #ABE1F7;
-    overflow: hidden;
 }
 
 
@@ -112,11 +111,23 @@ main {
     padding-top: 203px;
 }
 
+.quadradinho {
+    padding-top: 50px;
+    display: flex;
+}
+
+.btn-quadrado {
+    display: flex;
+}
+
+
+
+
 /* Footer ALL PAGES */
 .container-footer {
     background-image: url(../../Imgs/footer.svg);
     background-repeat: repeat;
     background-position: top top;
-    height: 300px;
+    height: 130px;
 }
 

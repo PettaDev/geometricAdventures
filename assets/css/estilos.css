@@ -30,7 +30,7 @@ body {
     height: 130px;
 }
 
-main {
+.main-index {
     width: 100%;
     height: 1200px;
 }
@@ -41,7 +41,6 @@ main {
     padding-top: 3rem;
 }
 
-/* falta justificar o texto */
 .container-p {
     padding: 40px;
     height: auto;
@@ -111,16 +110,50 @@ main {
     padding-top: 203px;
 }
 
-.quadradinho {
+.main-extern {
     padding-top: 50px;
-    display: flex;
+    height: 709px;
+    overflow: hidden;
 }
 
-.btn-quadrado {
+.area {
     display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
+.texto {
+    display: flex;
+    justify-content: center;
+}
 
+.button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    height: 40px;
+    width: 405px;
+    color: white;
+    cursor: pointer;
+    background: url(../../Imgs/btn1.png) no-repeat;
+    line-height: 26px;
+    padding-top: 6px;
+}
+
+.button:hover{
+    background: url(../../Imgs/btn2.png) no-repeat;
+}
 
 
 /* Footer ALL PAGES */
